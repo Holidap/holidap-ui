@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronDown, ChevronRight, MessageCircle, Clock, FileText, Users } from "lucide-react";
+import { ChevronDown, ChevronRight, MessageCircle, Clock, FileText } from "lucide-react";
 
 const PreparePage = () => {
   const [expandedStep, setExpandedStep] = useState(1);
