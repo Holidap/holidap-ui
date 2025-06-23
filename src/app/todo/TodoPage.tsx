@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronRight, ChevronDown, MessageCircle, FileText, Clock, Calendar } from "lucide-react";
+import { ChevronRight, ChevronDown, MessageCircle, FileText, Clock } from "lucide-react";
 
 const relatedTips = [
   {
@@ -123,12 +123,9 @@ const TodoPage = () => {
     }));
   };
 
-  const toggleSection = (sectionId: any) => {
+  const toggleSection = (sectionId: number | null) => {
     setExpandedSection(expandedSection === sectionId ? null : sectionId);
   };
-
-  const totalItems = sections.reduce((acc, section) => acc + section.items.length, 0);
-  const completedCount = Object.values(checkedItems).filter(Boolean).length;
 
   return (
     <div className="min-h-screen bg-gray-50">
