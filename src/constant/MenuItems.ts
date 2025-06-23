@@ -1,11 +1,8 @@
-import { Home, Calendar, MapPin, Plane, Camera, Heart } from "lucide-react";
+import { Home, CheckCircle, FileCheck, CirclePlus } from "lucide-react";
 
 export const MenuItems = [
   { title: "Dashboard", icon: Home, url: "/main" },
-  { title: "TimeLine", icon: Calendar, url: "/main/timeline" },
-  { title: "My Trips", icon: Plane, url: "/trips" },
-  { title: "Calendar", icon: Calendar, url: "/calendar" },
-  { title: "Destinations", icon: MapPin, url: "/destinations" },
-  { title: "Memories", icon: Camera, url: "/memories" },
-  { title: "Favorites", icon: Heart, url: "/favorites" },
+  { title: "Check List", icon: CheckCircle, url: "/checklist" },
+  { title: "Todo", icon: CirclePlus, url: "/todo" },
+  { title: "Prepare", icon: FileCheck, url: "/prepare" },
 ];

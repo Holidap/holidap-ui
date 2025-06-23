@@ -1,28 +1,17 @@
 "use client";
 
 import React from "react";
-import { useAuthStore } from "@/store/useAuthStore";
+import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
 
 export default function LoginPage() {
   const router = useRouter();
-  const { isLoggedIn, login } = useAuthStore();
 
   const [username, setUsername] = React.useState("");
 
-  React.useEffect(() => {
-    if (isLoggedIn) {
-      router.push("/main");
-    }
-  }, [isLoggedIn, router]);
-
   const handleLogin = () => {
-    if (username.trim()) {
-      login(username);
-      router.push("/main");
-    }
+    router.push("/main");
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
