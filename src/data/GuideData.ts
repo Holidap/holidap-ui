@@ -32,6 +32,20 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/open_bank_account.md"
   },
   {
+    id: "temporary_housing",
+    title: "임시숙소",
+    category: "한국",
+    tags: "주거",
+    filePath: "/content/temporary_housing.md"
+  },
+  {
+    id: "housing",
+    title: "집 구하는 방법 및 플랫폼 소개",
+    category: "캐나다",
+    tags: "주거",
+    filePath: "/content/housing.md"
+  },
+  {
     id: "transfer_across_country",
     title: "나라간 송금하기",
     category: "한국",
