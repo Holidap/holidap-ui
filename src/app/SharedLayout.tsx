@@ -17,6 +17,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar";
+import { DevMenuItems } from "@/constant/DevMenuItems";
 
 interface SharedLayoutProps {
   children: React.ReactNode;
@@ -31,15 +32,6 @@ function SharedLayout({ children }: SharedLayoutProps) {
     <SidebarProvider>
       <div className="flex min-h-screen w-full">
         <Sidebar>
-          <SidebarHeader className="border-b border-sidebar-border p-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                <Plane className="w-4 h-4 text-white" />
-              </div>
-              <span className="font-bold text-lg">Holidap</span>
-            </div>
-          </SidebarHeader>
-
           <SidebarContent>
             <SidebarGroup>
               <SidebarGroupLabel>Navigation</SidebarGroupLabel>
@@ -58,7 +50,23 @@ function SharedLayout({ children }: SharedLayoutProps) {
                 </SidebarMenu>
               </SidebarGroupContent>
             </SidebarGroup>
-
+            <SidebarGroup>
+              <SidebarGroupLabel>For Dev</SidebarGroupLabel>
+              <SidebarGroupContent>
+                <SidebarMenu>
+                  {DevMenuItems.map(item => (
+                    <SidebarMenuItem key={item.title}>
+                      <SidebarMenuButton asChild>
+                        <a href={item.url} className="flex items-center gap-2">
+                          <item.icon className="w-4 h-4" />
+                          <span>{item.title}</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                  ))}
+                </SidebarMenu>
+              </SidebarGroupContent>
+            </SidebarGroup>
             <SidebarGroup>
               <SidebarGroupLabel>Account</SidebarGroupLabel>
               <SidebarGroupContent>
@@ -103,9 +111,12 @@ function SharedLayout({ children }: SharedLayoutProps) {
           <header className="border-b border-gray-200 dark:border-gray-700 p-4">
             <div className="flex items-center gap-4">
               <SidebarTrigger />
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Welcome back, AA2!
-              </h1>
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                  <Plane className="w-4 h-4 text-white" />
+                </div>
+                <span className="font-bold text-lg">Holidap</span>
+              </div>
             </div>
           </header>
 
