@@ -1,17 +1,19 @@
 import { GuideItemType } from "@/type/guide";
 
+export const CategoryData: string[] = ["캐나다", "한국", "항공"];
+
 export const GuideData: GuideItemType[] = [
   {
-    id: "documents",
-    title: "서류",
-    category: "한국에서",
-    tags: "금융, 뱅킹",
+    id: "canada_sim_card_application",
+    title: "캐나다 유심 신청 및 현지 사용",
+    category: "캐나다",
+    tags: "모바일",
     filePath: "/content/canada_sim_card_application.md",
   },
   {
     id: "basic-prep",
     title: "기본준비물 (document)",
-    category: "한국에서",
+    category: "한국",
     tags: "생활용품, 필수품",
     filePath: "/content/sample.md",
   },

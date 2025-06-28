@@ -4,15 +4,13 @@ import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { ChevronRight, ChevronDown, Folder, File } from "lucide-react";
 import _ from "lodash";
-import { GuideData } from "@/data/GuideData";
+import { CategoryData, GuideData } from "@/data/GuideData";
 import { GuideItemType } from "@/type/guide";
 
 function GuidePage() {
   const router = useRouter();
 
-  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(
-    new Set(["한국에서", "항공"]),
-  );
+  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set(CategoryData));
 
   const categorizedItems = useMemo(() => {
     return _.groupBy(GuideData, "category");
