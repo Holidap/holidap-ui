@@ -5,10 +5,17 @@ export const CategoryData: string[] = ["캐나다", "한국", "항공"];
 export const GuideData: GuideItemType[] = [
   {
     id: "canada_sim_card_application",
-    title: "캐나다 유심 신청 및 현지 사용",
+    title: "캐나다 현지 유심 신청 및 사용",
     category: "캐나다",
-    tags: "모바일",
+    tags: "통신",
     filePath: "/content/canada_sim_card_application.md",
+  },
+  {
+    id: "keep_korean_number",
+    title: "한국번호 알뜰폰으로 바꾸기",
+    category: "한국",
+    tags: "통신",
+    filePath: "/content/keep_korean_number.md"
   },
   {
     id: "luggage-preparation-guide",
