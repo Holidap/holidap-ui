@@ -27,10 +27,6 @@ function GuidePage() {
   };
 
   const handleItemClick = (item: GuideItemType) => {
-    console.log(`Navigating to: /guide/${item.id}`);
-    console.log(`File path: ${item.filePath}`);
-    console.log(`Tags: ${item.tags}`);
-    alert(`라우팅: /guide/${item.id}\n파일: ${item.filePath}\n태그: ${item.tags}`);
     router.push(`/guide/${item.id}`);
   };
 
