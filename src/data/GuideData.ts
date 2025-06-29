@@ -53,6 +53,20 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/transfer_across_country.md"
   },
   {
+    id: "driver_license",
+    title: "운전면허증 사용 및 교환",
+    category: "캐나다",
+    tags: "신분증",
+    filePath: "/content/driver_license.md"
+  },
+  {
+    id: "photo_id",
+    title: "신분증 만들기",
+    category: "캐나다",
+    tags: "신분증",
+    filePath: "/content/photo_id.md"
+  },
+  {
     id: "luggage-preparation-guide",
     title: "캐나다 워킹홀리데이 수화물 준비 가이드",
     category: "한국",
