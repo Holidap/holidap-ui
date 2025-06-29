@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Card, CardContent } from "@/components/ui/card";
-import { AlertCircle, Tag } from "lucide-react";
+import { AlertCircle, ExternalLink, Tag } from "lucide-react";
 
 interface MarkdownReaderProps {
   staticFilePath?: string;
@@ -188,6 +188,27 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
                         }
                         return <h1 className="text-3xl font-bold mt-8 mb-6">{children}</h1>;
                       },
+                      // 이미지 크기 제한 추가
+                      img: ({ src, alt, ...props }) => (
+                        <img
+                          src={src}
+                          alt={alt}
+                          className="max-w-[50vw] max-h-[50vh] object-contain rounded-lg shadow-sm my-4"
+                          {...props}
+                        />
+                      ),
+                      a: ({ href, children, ...props }) => (
+                        <a
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 text-blue-700 hover:text-blue-400 underline decoration-primary/50 hover:decoration-primary transition-colors"
+                          {...props}
+                        >
+                          {children}
+                          <ExternalLink className="w-3 h-3 inline-block" />
+                        </a>
+                      ),
                       code: ({ className, children, ...props }) => {
                         const isInline = !className?.includes("language-");
                         return isInline ? (
