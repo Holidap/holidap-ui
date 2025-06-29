@@ -23,15 +23,7 @@ function GuideDetailsPage() {
 
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold mb-8">{id}</h1>
-      {/* <div className="mb-4">
-        <span className="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded mr-2">
-          {currentGuide.category}
-        </span>
-        <span className="bg-gray-100 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded">
-          {currentGuide.tags}
-        </span>
-      </div> */}
+      {/* <h1 className="text-3xl font-bold mb-8">{currentGuide.title}</h1> */}
       <MarkdownReader staticFilePath={currentGuide?.filePath || "/content/sample.md"} />
     </div>
   );
