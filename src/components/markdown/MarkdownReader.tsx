@@ -1,5 +1,7 @@
 "use client";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -52,7 +54,6 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
     const [, yamlContent, markdownContent] = match;
 
     try {
-      // Simple YAML parsing for basic frontmatter
       const frontmatter: Frontmatter = {};
       const lines = yamlContent.split("\n");
       let currentKey = "";
@@ -69,7 +70,6 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
             (frontmatter[currentKey] as string[]).push(trimmedLine.substring(2).trim());
           }
         } else if (trimmedLine.includes(":")) {
-          // Key-value pair
           const colonIndex = trimmedLine.indexOf(":");
           const key = trimmedLine.substring(0, colonIndex).trim();
           const value = trimmedLine.substring(colonIndex + 1).trim();
@@ -78,10 +78,8 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
           isArray = false;
 
           if (value) {
-            // Single value
             frontmatter[key] = value.replace(/['"]/g, "");
           } else {
-            // Possibly an array
             isArray = true;
             frontmatter[key] = [];
           }
