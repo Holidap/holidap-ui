@@ -8,9 +8,7 @@ tags:
   - 주정부의료보험
 ---
 
-# 캐나다 보험
-
-## **헬스 넘버 (Health Card, 주정부 의료보험)**
+# **헬스 넘버 (Health Card, 주정부 의료보험)**
 
 - **개요:** 캐나다는 주마다 자체적인 **공공 의료보험 제도**를 운영하며, 거주자는 해당 주의 건강 보험 카드(Health Card)를 발급받아야 합니다. 이 **헬스 카드**에는 개인의 의료보험 번호가 부여되며, 병원이나 클리닉 방문 시 제시하여 **의료비를 청구 면제**받는 신분증 역할을 합니다. 카드는 **본인만 사용 가능**하며 타인에게 빌려줄 수 없습니다. 도난·분실 시 즉시 신고하고 재발급 받아야 합니다.
 - **주별 의료보험 프로그램:** 캐나다 각 주마다 의료보험 명칭이 다릅니다 (보장 범위는 유사).
@@ -50,24 +48,24 @@ MSP는 브리티시컬럼비아주의 주정부에서 관리하는 건강 보험
 
 # 온타리오(ON)주 -  OHIP
 
-[https://www.ontario.ca/page/apply-ohip-and-get-health-card](https://www.ontario.ca/page/apply-ohip-and-get-health-card)
+[Apply for OHIP and get a health card](https://www.ontario.ca/page/apply-ohip-and-get-health-card)
 
-### OHIP란?
+## OHIP란?
 
 - OHIP (Ontario Health Insurance Plan)은 온타리오주에서 제공하는 공공의료보험입니다.
 - OHIP에 가입하면 병원 진료, 응급실, 의료 검사, 수술 등 다양한 의료 서비스를 무료로 받을 수 있습니다.
 
-### 자격요건
+## 자격요건
 
 1. 온타리오주에 1년 중 153일 이상 실제로 거주해야 합니다.
 2. 온타리오주가 주 거주지여야 합니다.
 3. 유효한 워크퍼밋 소지자일 경우 6개월 이상 풀타임으로 근무하고 있어야 합니다.
 
-### 신청 방법
+## 신청 방법
 
 - 가까운 ServiceOntario 센터에 방문 신청 (온라인 불가)
 
-### 준비서류 (원본 필요, 복사본 불가):
+## 준비서류 (원본 필요, 복사본 불가):
 
 - **OHIP 신청서 (Registration for Ontario Health Insurance Coverage Form)** - 서비스온타리오에 방문하면 제공됩니다.
 - **원본 문서**

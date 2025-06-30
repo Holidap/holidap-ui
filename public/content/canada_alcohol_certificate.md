@@ -11,8 +11,6 @@ tags:
   - 서빙잇라잇
 ---
 
-# 서버 관련 자격증 안내
-
 캐나다 각 주에서는 주류를 취급하는 업소에서 일을 하려면 관련 자격증을 취득해야합니다. 각 주마다 교육 기관과 자격증 명칭, 발급 절차 등이 다르니 아래 내용을 참고하세요.
 **제공되는 수업을 잘 듣는 다면 무리없이 통과할 수 있습니다. 자신이 없다면 온라인에서 기출 문제를 찾아 공부해보는 것도 방법입니다.**
 
@@ -22,21 +20,21 @@ tags:
 - **유효 기간:** 일반적으로 5년 주기로 갱신 권장.
 - **특징:** 각 주 법에 따라 다르지만, 직원이 자격증 없이 주류 판매/취급하다가 걸리는 경우 패널티를 받게 됩니다. 영어 말고도 다른 언어로 시험 보는 것도 가능하니 확인해보세요.
 
-## 온타리오 주 - Smart Serve
+# 온타리오 주 - Smart Serve
 
-- **웹사이트:** [https://www.smartserve.ca/](https://www.smartserve.ca/)
-
----
-
-## 알버타 주 - ProServe
-
-- **웹사이트:** [https://proserve.aglc.ca/](https://proserve.aglc.ca/)
+- **웹사이트:** [Smart Serve Ontario](https://www.smartserve.ca/)
 
 ---
 
-## 브리티시 콜롬비아 주 - Serving It Right
+# 알버타 주 - ProServe
 
-- **웹사이트:** [https://www.responsibleservicebc.gov.bc.ca/serving-it-right-course/](https://www.responsibleservicebc.gov.bc.ca/serving-it-right-course/)
+- **웹사이트:** [AGLC training programs](https://proserve.aglc.ca/)
+
+---
+
+# 브리티시 콜롬비아 주 - Serving It Right
+
+- **웹사이트:** [Responsible Service BC](https://www.responsibleservicebc.gov.bc.ca/serving-it-right-course/)
 
 ---
 
