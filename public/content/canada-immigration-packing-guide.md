@@ -21,8 +21,8 @@ tags:
 
 | 항공사 | 무료 위탁수화물 | 크기제한 | 무게 추가 가격 | 추가 수화물 가격 |
 |--------|----------------|----------|----------------|-----------------|
-| [대한항공](https://www.koreanair.com/contents/plan-your-travel/baggage/checked-baggage/free-baggage) | 2개, 각 23kg 이하 | 가로×세로×높이 3변의 합이 158cm (62in) 이내 (손잡이, 바퀴 포함) | 24kg ~ 32kg: 100,000원<br>32kg 초과 ~ 45kg: 200,000원 | 개당 200,000원 |
-| [에어캐나다](https://www.aircanada.com/kr/ko/aco/home/plan/baggage/checked.html?ac_altitude_status=object%3A68&ac_class_of_service=object%3A75#/home:) | 1개, 23kg 이하 | 가로×세로×높이 3변의 합이 158cm (62in) 이내 (손잡이, 바퀴 포함) | 23-32kg: 100 CAD/USD | 2번째 수화물 100CAD<br>3번째 이후 개당 225 CAD |
+| [대한항공](https://www.koreanair.com/contents/plan-your-travel/baggage/checked-baggage/free-baggage) | 2개, 각 23kg 이하 | 가로×세로×높이 3변의 합이 158cm (62in) 이내 (손잡이, 바퀴 포함) | 24kg ~ 32kg: 100,000원 / 32kg 초과 ~ 45kg: 200,000원 | 개당 200,000원 |
+| [에어캐나다](https://www.aircanada.com/kr/ko/aco/home/plan/baggage/checked.html?ac_altitude_status=object%3A68&ac_class_of_service=object%3A75#/home:) | 1개, 23kg 이하 | 가로×세로×높이 3변의 합이 158cm (62in) 이내 (손잡이, 바퀴 포함) | 23-32kg: 100 CAD/USD | 2번째 수화물 100CAD / 3번째 이후 개당 225 CAD |
 | [티웨이항공](https://www.twayair.com/app/serviceInfo/luggageAmtCal?returnUrl=/app/serviceInfo/contents/1159) | 1개, 23kg 이하 | 가로+세로+높이 합이 203cm 이하 | 150,000원 | 온라인 사전 구매 시 개당 120,000원. 최대 2개까지 추가 가능 |
 
 # 수화물 포장 옵션
