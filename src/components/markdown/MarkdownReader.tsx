@@ -25,21 +25,11 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
   const [frontmatter, setFrontmatter] = useState<Frontmatter | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string>("");
-  const [isMounted, setIsMounted] = useState(false);
-
   useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (isMounted && staticFilePath) {
+    if (staticFilePath) {
       loadStaticFile(staticFilePath);
     }
-  }, [staticFilePath, isMounted]);
-
-  if (!isMounted) {
-    return null;
-  }
+  }, [staticFilePath]);
 
   const parseFrontmatter = (
     content: string,
@@ -177,18 +167,53 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
 
               {/* Markdown Content */}
               {markdownContent && (
-                <div className="prose prose-sm max-w-none dark:prose-invert">
+                <div className="prose prose-lg max-w-none dark:prose-invert prose-headings:font-bold prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl prose-h4:text-lg prose-h5:text-base prose-h6:text-sm prose-p:text-base prose-p:leading-7 prose-ul:list-disc prose-ol:list-decimal prose-li:ml-4">
                   <ReactMarkdown
                     remarkPlugins={[remarkGfm]}
                     components={{
-                      // Remove h1 from markdown content if we're showing title from frontmatter
+                      // 헤딩 스타일링
                       h1: ({ children }) => {
                         if (frontmatter?.title) {
-                          return <h2 className="text-2xl font-semibold mt-8 mb-4">{children}</h2>;
+                          return (
+                            <h2 className="text-2xl font-bold mt-8 mb-4 text-foreground">
+                              {children}
+                            </h2>
+                          );
                         }
-                        return <h1 className="text-3xl font-bold mt-8 mb-6">{children}</h1>;
+                        return (
+                          <h1 className="text-3xl font-bold mt-8 mb-6 text-foreground">
+                            {children}
+                          </h1>
+                        );
                       },
-                      // 이미지 크기 제한 추가
+                      h2: ({ children }) => (
+                        <h2 className="text-2xl font-bold mt-8 mb-4 text-foreground">{children}</h2>
+                      ),
+                      h3: ({ children }) => (
+                        <h3 className="text-xl font-bold mt-6 mb-3 text-foreground">{children}</h3>
+                      ),
+                      h4: ({ children }) => (
+                        <h4 className="text-lg font-bold mt-5 mb-2 text-foreground">{children}</h4>
+                      ),
+                      h5: ({ children }) => (
+                        <h5 className="text-base font-bold mt-4 mb-2 text-foreground">
+                          {children}
+                        </h5>
+                      ),
+                      h6: ({ children }) => (
+                        <h6 className="text-sm font-bold mt-3 mb-2 text-foreground">{children}</h6>
+                      ),
+                      // 리스트 스타일링
+                      ul: ({ children }) => (
+                        <ul className="list-disc pl-6 my-4 space-y-2">{children}</ul>
+                      ),
+                      ol: ({ children }) => (
+                        <ol className="list-decimal pl-6 my-4 space-y-2">{children}</ol>
+                      ),
+                      li: ({ children }) => <li className="text-base leading-7">{children}</li>,
+                      // 단락 스타일링
+                      p: ({ children }) => <p className="text-base leading-7 my-4">{children}</p>,
+                      // 이미지 크기 제한
                       img: ({ src, alt, ...props }) => (
                         <img
                           src={src}
@@ -197,30 +222,42 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
                           {...props}
                         />
                       ),
+                      // 링크 스타일링
                       a: ({ href, children, ...props }) => (
                         <a
                           href={href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-blue-700 hover:text-blue-400 underline decoration-primary/50 hover:decoration-primary transition-colors"
+                          className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 underline decoration-blue-300 hover:decoration-blue-500 transition-colors"
                           {...props}
                         >
                           {children}
                           <ExternalLink className="w-3 h-3 inline-block" />
                         </a>
                       ),
+                      // 코드 스타일링
                       code: ({ className, children, ...props }) => {
                         const isInline = !className?.includes("language-");
                         return isInline ? (
-                          <code className="bg-muted px-1 py-0.5 rounded text-sm" {...props}>
+                          <code className="bg-muted px-2 py-1 rounded text-sm font-mono" {...props}>
                             {children}
                           </code>
                         ) : (
-                          <code className={className} {...props}>
+                          <code
+                            className={`${className} block bg-muted p-4 rounded-lg text-sm font-mono overflow-x-auto`}
+                            {...props}
+                          >
                             {children}
                           </code>
                         );
                       },
+                      // 인용구 스타일링
+                      blockquote: ({ children }) => (
+                        <blockquote className="border-l-4 border-primary/30 pl-4 my-6 italic text-muted-foreground">
+                          {children}
+                        </blockquote>
+                      ),
+                      // 테이블 스타일링
                       table: ({ children }) => (
                         <div className="overflow-x-auto my-6">
                           <table className="border-collapse border border-border w-full">
@@ -236,6 +273,8 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
                       td: ({ children }) => (
                         <td className="border border-border px-4 py-2">{children}</td>
                       ),
+                      // 수평선 스타일링
+                      hr: () => <hr className="my-8 border-0 border-t border-border" />,
                     }}
                   >
                     {markdownContent}
