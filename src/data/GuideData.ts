@@ -46,11 +46,11 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/housing.md"
   },
   {
-    id: "transfer_across_country",
+    id: "transfer-across-country",
     title: "나라간 송금하기",
     category: "한국",
     tags: "금융",
-    filePath: "/content/transfer_across_country.md"
+    filePath: "/content/transfer-across-country.md"
   },
   {
     id: "driver_license",
