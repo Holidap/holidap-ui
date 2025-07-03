@@ -5,7 +5,7 @@ export const CategoryData: string[] = ["캐나다", "한국", "항공"];
 export const GuideData: GuideItemType[] = [
   {
     id: "canada_sim_card_application",
-    title: "캐나다 현지 유심 신청 및 사용",
+    title: "현지 유심 신청 및 사용",
     category: "캐나다",
     tags: "통신",
     filePath: "/content/canada_sim_card_application.md",
@@ -26,7 +26,7 @@ export const GuideData: GuideItemType[] = [
   },
   {
     id: "open_bank_account",
-    title: "캐나다 은행 계좌 오픈",
+    title: "현지 은행 계좌 오픈",
     category: "캐나다",
     tags: "금융",
     filePath: "/content/open_bank_account.md"
@@ -75,7 +75,7 @@ export const GuideData: GuideItemType[] = [
   },
   {
     id: "canada-immigration-packing-guide",
-    title: "캐나다 워킹홀리데이 수화물 준비 가이드",
+    title: "워킹홀리데이 수화물 준비 가이드",
     category: "한국",
     tags: "항공",
     filePath: "/content/canada-immigration-packing-guide.md",
@@ -96,7 +96,7 @@ export const GuideData: GuideItemType[] = [
   },
   {
     id: "job-platforms",
-    title: "캐나다 현지 구직 플랫폼 가이드",
+    title: "현지 구직 플랫폼 가이드",
     category: "캐나다",
     tags: "취업",
     filePath: "/content/job-platforms.md",
@@ -166,7 +166,7 @@ export const GuideData: GuideItemType[] = [
   },
   {
     id: "resume_print",
-    title: "캐나다 레주메 출력 가이드", 
+    title: "레주메 출력 가이드", 
     category: "캐나다",
     tags: "구직",
     filePath: "/content/resume_print.md",
