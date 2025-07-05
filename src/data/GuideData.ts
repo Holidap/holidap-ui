@@ -213,4 +213,18 @@ export const GuideData: GuideItemType[] = [
     tags: "생활",
     filePath: "/content/international_package.md",
   },
+  {
+    id: "bank account benefits",
+    title: "은행 계좌 혜택",
+    category: "캐나다",
+    tags: "금융",
+    filePath: "/content/bank_account_benefits.md",
+  },
+  {
+    id: "korean marts in canada",
+    title: "현지 한인마트 정보",
+    category: "캐나다",
+    tags: "생활",
+    filePath: "/content/korean_marts_in_canada.md",
+  },
 ];
