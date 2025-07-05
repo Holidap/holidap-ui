@@ -14,9 +14,9 @@ tags:
 | **은행명** | **대표 계좌/프로그램** | **월 수수료(조건부)** | **주요 혜택 및 특징** | **신규 프로모션/보너스** |
 | --- | --- | --- | --- | --- |
 | **TD** | TD Unlimited Chequing Account | 첫 1년 면제 | - 무제한 거래<br>- Interac e-Transfer 무료<br>- 캐나다 전역 TD ATM 수수료 면제 | 최대 $450 보너스:<br>급여 이체·자동납부 등 조건 2개 충족 시 지급 |
-| **RBC** | Newcomer Advantage + RBC Cash Back Mastercard | 최대 1년 면제 | - 직관적인 앱 UI<br>- 대도시 중심의 지점 운영 | 신용카드 개설 후 3개월 내 $2,000 사용 시 $200 캐시백<br>식료품 최대 2% 추가 적립 |
+| **RBC** | Newcomer Advantage + RBC Cash Back Mastercard | 최대 1년 면제 | - 앱 사용자 경험(UI)이 간단하고 직관적<br>- 대도시 중심으로 지점 및 지원 서비스 운영 | 신용카드 개설 후 3개월 내 $2,000 사용 시 $200 캐시백<br>식료품 최대 2% 추가 적립 |
 | **Scotiabank** | StartRight Program + Preferred Package | 첫 1년 면제 | - 무제한 거래 및 이체<br>- 해외 송금 $1.99<br>- 오버드래프트 보호 가능 | 최대 $700 보너스:<br>계좌 개설 후 급여이체/자동이체 등 완료 시 단계별 지급 |
-| **CIBC** | Smart™ Account for Newcomers | 2년간 수수료 면제 | - 온라인/모바일 뱅킹 우수<br>- 학생/이민자 특화<br>- 캐시백 제공 | 최대 $450 보너스:<br>급여 이체 + 자동이체/청구서 납부 등 선택 조건 충족 시 지급 |
+| **CIBC** | Smart™ Account for Newcomers | 2년간 수수료 면제 | - 온라인 및 모바일 뱅킹 인터페이스가 편리함<br>- 학생/이민자 특화<br>- 캐시백 제공 | 최대 $450 보너스:<br>급여 이체 + 자동이체/청구서 납부 등 선택 조건 충족 시 지급 |
 
 ## 각 은행 상세 프로모션 개요
 
