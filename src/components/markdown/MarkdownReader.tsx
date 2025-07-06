@@ -228,7 +228,7 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({
                           href={href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 underline decoration-blue-300 hover:decoration-blue-500 transition-colors"
+                          className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 decoration-blue-300 hover:decoration-blue-500 transition-colors"
                           {...props}
                         >
                           {children}

@@ -15,63 +15,63 @@ export const GuideData: GuideItemType[] = [
     title: "한국번호 알뜰폰으로 바꾸기",
     category: "한국",
     tags: "통신",
-    filePath: "/content/keep_korean_number.md"
+    filePath: "/content/keep_korean_number.md",
   },
   {
     id: "atm_travel_card_info",
     title: "트래블전용 카드 / ATM 정보",
     category: "한국",
     tags: "금융",
-    filePath: "/content/atm_travel_card_info.md"
+    filePath: "/content/atm_travel_card_info.md",
   },
   {
     id: "open_bank_account",
     title: "현지 은행 계좌 오픈",
     category: "캐나다",
     tags: "금융",
-    filePath: "/content/open_bank_account.md"
+    filePath: "/content/open_bank_account.md",
   },
   {
     id: "temporary_housing",
     title: "임시숙소",
     category: "한국",
     tags: "주거",
-    filePath: "/content/temporary_housing.md"
+    filePath: "/content/temporary_housing.md",
   },
   {
     id: "housing",
     title: "집 구하는 방법 및 플랫폼 소개",
     category: "캐나다",
     tags: "주거",
-    filePath: "/content/housing.md"
+    filePath: "/content/housing.md",
   },
   {
     id: "transfer-across-country",
     title: "나라간 송금하기",
     category: "한국",
     tags: "금융",
-    filePath: "/content/transfer-across-country.md"
+    filePath: "/content/transfer-across-country.md",
   },
   {
     id: "driver_license",
     title: "운전면허증 사용 및 교환",
     category: "캐나다",
     tags: "신분증",
-    filePath: "/content/driver_license.md"
+    filePath: "/content/driver_license.md",
   },
   {
     id: "photo_id",
     title: "신분증 만들기",
     category: "캐나다",
     tags: "신분증",
-    filePath: "/content/photo_id.md"
+    filePath: "/content/photo_id.md",
   },
   {
     id: "overseas_residency_report",
     title: "해외 체류 신고",
     category: "캐나다",
     tags: "서류",
-    filePath: "/content/overseas_residency_report.md"
+    filePath: "/content/overseas_residency_report.md",
   },
   {
     id: "canada-immigration-packing-guide",
@@ -116,7 +116,7 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/insurance_guide.md",
   },
   {
-    id: "resume_guide", 
+    id: "resume_guide",
     title: "워홀러를 위한 레주메 작성 가이드",
     category: "캐나다",
     tags: "구직",
@@ -124,7 +124,7 @@ export const GuideData: GuideItemType[] = [
   },
   {
     id: "auth_guide",
-    title: "해외 체류 중 한국 본인인증 가이드", 
+    title: "해외 체류 중 한국 본인인증 가이드",
     category: "한국",
     tags: "생활",
     filePath: "/content/auth_guide.md",
@@ -141,7 +141,7 @@ export const GuideData: GuideItemType[] = [
     title: "캐나다에서 주의해야 할 주요 사기 유형 가이드",
     category: "캐나다",
     tags: "생활",
-    filePath: "/content/scams_to_watch.md", 
+    filePath: "/content/scams_to_watch.md",
   },
   {
     id: "vaccination_guide",
@@ -151,7 +151,7 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/vaccination_guide.md",
   },
   {
-    id: "emergency", 
+    id: "emergency",
     title: "캐나다 긴급 상황 대응 가이드",
     category: "캐나다",
     tags: "생활",
@@ -166,7 +166,7 @@ export const GuideData: GuideItemType[] = [
   },
   {
     id: "resume_print",
-    title: "레주메 출력 가이드", 
+    title: "레주메 출력 가이드",
     category: "캐나다",
     tags: "구직",
     filePath: "/content/resume_print.md",
@@ -214,14 +214,14 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/international_package.md",
   },
   {
-    id: "bank account benefits",
+    id: "bank_account_benefits",
     title: "은행 계좌 혜택",
     category: "캐나다",
     tags: "금융",
     filePath: "/content/bank_account_benefits.md",
   },
   {
-    id: "korean marts in canada",
+    id: "korean_marts_in_canada",
     title: "현지 한인마트 정보",
     category: "캐나다",
     tags: "생활",
