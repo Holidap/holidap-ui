@@ -23,12 +23,11 @@ tags:
   각 마트별 포인트 카드 운영. 포인트로 상품 교환, 멤버십 전용 이벤트 등 다양한 혜택이 있습니다.
 
 - **할인 및 이벤트:**  
-  저녁 시간(6시 이후) 즉석 식품, 반찬류 등 일부 품목 10~20% 할인.  
+  저녁 시간(6시 이후) 즉석 식품, 반찬류 등 일부 품목의 경우 10~20% 할인된 가격으로 구매할 수 있습니다.
   주간 세일(전단지 확인), 멤버십 이벤트 등 다양한 프로모션이 진행됩니다.
 
 - **가격 비교:**  
-  한인마트는 현지 대형마트보다 가격이 다소 높을 수 있으니,  
-  동일 품목은 현지 마트와 비교 후 구매하는 것을 추천합니다.  
+  한인마트는 현지 대형마트보다 가격이 다소 높을 수 있으니, 동일 품목은 현지 마트와 비교 후 구매하는 것을 추천합니다.  
   같은 브랜드라도 지점별로 가격이나 할인 품목이 다를 수 있습니다.
 
 # 2. 토론토
@@ -43,8 +42,8 @@ tags:
 
 | 마트명             | 주요 지역                                                                                      | 공식 웹사이트                                               | 특징 및 장점                                                 |
 |--------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------|
-| H Mart              | Coquitlam, Downtown, Richmond, Langley, Port Coquitlam, Dunbar, UBC Express, Coquitlam Centre | [H Mart 공식 웹사이트](https://www.hmart.ca)                | 대중교통 인근, 다양한 한국 식재료, 포인트 제도, 온라인 쇼핑 가능 |
-| Hannam Supermarket | Burnaby, Robson, Surrey, Langley, YaleTown Express, Metrotown                                 | [Hannam 공식 웹사이트](https://www.hannamsm.com)           | 대형 매장, 신선한 채소·육류, 한식 반찬, 다양한 한국 식품, 자체 포인트 카드 운영 |
+| H Mart              | Coquitlam, Downtown, Richmond, Langley, Port Coquitlam, Dunbar, UBC Express, Coquitlam Centre | [H Mart 공식 웹사이트](https://www.hmart.ca)                | 접근성이 편리함, 다양한 한국 식재료, 포인트 제도, 온라인 쇼핑 가능 |
+| Hannam Supermarket | Burnaby, Robson, Surrey, Langley, YaleTown Express, Metrotown                                 | [Hannam Supermarket 공식 웹사이트](https://www.hannamsm.com)           | 대형 매장, 신선한 채소·육류, 한식 반찬, 다양한 한국 식품, 자체 포인트 카드 운영 |
 
 # 4. 그외 지역 한인마트
 
@@ -58,7 +57,7 @@ tags:
   온라인 주문 가능
 
 - **H Marché**  
-  장터 2116 Decarie Blvd. 지점이 H Mart로 변경됨
+  Marché Jang Teu (장터) 2116 Decarie Blvd. 지점이 H Mart로 변경됨
 
 ## 캘거리
 
@@ -84,5 +83,4 @@ tags:
 
 ---
 
-> *참고*
-> 모든 H Mart 지점의 공식 웹사이트: [H Mart 공식 웹사이트](https://www.hmart.ca/)
+> *참고*: 모든 H Mart 지점의 공식 웹사이트: [H Mart 공식 웹사이트](https://www.hmart.ca/)
