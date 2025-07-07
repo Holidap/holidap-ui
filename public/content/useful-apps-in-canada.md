@@ -56,7 +56,7 @@ tags:
 
 # 커뮤니티/네트워킹 앱
 
-- **Meetup / Eventbrite**  
+- **Meetup / Luma / Eventbrite**  
   관심사 기반 모임, 커뮤니티 이벤트, 네트워킹 기회 탐색
 
 # 스타벅스 앱 사용 시 주의사항
