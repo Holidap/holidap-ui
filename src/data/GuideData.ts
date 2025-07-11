@@ -227,4 +227,32 @@ export const GuideData: GuideItemType[] = [
     tags: "생활",
     filePath: "/content/korean_marts_in_canada.md",
   },
+  {
+    id: "cra_account_setup",
+    title: "Canada Revenue Agency 계정 개설 가이드",
+    category: "캐나다",
+    tags: "세무",
+    filePath: "/content/cra_account_setup.md",
+  },
+  {
+    id: "tax_return_guide",
+    title: "텍스 리턴 가이드",
+    category: "캐나다",
+    tags: "세무",
+    filePath: "/content/tax_return_guide.md",
+  },
+  {
+    id: "hst_gst_refund",
+    title: "HST/GST Credit 환급 안내",
+    category: "캐나다",
+    tags: "세무",
+    filePath: "/content/hst_gst_refund.md",
+  },
+  {
+    id: "airport_to_accommodation",
+    title: "주요 도시 공항에서 숙소로 이동하기",
+    category: "캐나다",
+    tags: "생활",
+    filePath: "/content/airport_to_accommodation.md",
+  },
 ];
