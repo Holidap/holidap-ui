@@ -57,7 +57,9 @@ tags:
 
 - **Starbucks**
   리워드 적립 및 주문
+
   ⚠️ **주의**: 앱스토어 다운로드 시 미국 계정으로 설정될 수 있음
+  
   → [Starbucks Canada](https://www.starbucks.ca/)에서 캐나다 계정 먼저 가입 후 앱 로그인 권장
 
 - **Tim Hortons**
