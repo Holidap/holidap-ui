@@ -255,4 +255,11 @@ export const GuideData: GuideItemType[] = [
     tags: "생활",
     filePath: "/content/airport_to_accommodation.md",
   },
+  {
+    id: "canada_tax_check_exchange",
+    title: "귀국 후 캐나다 세금 환급 체크(수표) 환전 안내",
+    category: "한국",
+    tags: "세무",
+    filePath: "/content/canada_tax_check_exchange.md",
+  },
 ];
